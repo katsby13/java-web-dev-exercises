@@ -1,6 +1,5 @@
 package exercises;
 
-import java.util.Locale;
 import java.util.Scanner;
 
 public class AliceString {
@@ -17,5 +16,10 @@ public class AliceString {
 
         boolean search = aliceLC.contains(term);
         System.out.println("Term found in sentence: " + search);
+
+        System.out.println("Term found at index: " + aliceLC.indexOf(term) + ". The term has a length of " + term.length() + ".");
+
+        String newSentence = aliceLC.replace(term, "");
+        System.out.println(newSentence);
     }
 }

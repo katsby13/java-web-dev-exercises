@@ -1,4 +1,4 @@
-package exercises;
+package exercises.chapter3;
 
 import java.util.Arrays;
 

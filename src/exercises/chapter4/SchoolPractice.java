@@ -1,6 +1,8 @@
-package org.launchcode.java.demos.lsn3classes1;
+package exercises.chapter4;
 
-import java.util.ArrayList;
+import org.launchcode.java.demos.lsn3classes1.Course;
+import org.launchcode.java.demos.lsn3classes1.Student;
+import org.launchcode.java.demos.lsn3classes1.Teacher;
 
 public class SchoolPractice {
     public static void main(String[] args) {
@@ -28,7 +30,7 @@ public class SchoolPractice {
 
 
 //        cannot get course class to work as expected; not even sure exactly how it is expected to work...
-        Course americanHistory = new Course();
+        org.launchcode.java.demos.lsn3classes1.Course americanHistory = new Course();
 
         americanHistory.setSubject("History");
         americanHistory.setTeacher(sarkees.getLastName());

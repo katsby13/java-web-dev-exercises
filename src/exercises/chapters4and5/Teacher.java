@@ -1,4 +1,4 @@
-package exercises.chapter4;
+package exercises.chapters4and5;
 
 public class Teacher {
     private String firstName;

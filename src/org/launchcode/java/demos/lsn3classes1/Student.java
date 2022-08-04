@@ -22,7 +22,7 @@ public class Student {
     public void setStudentId(int aStudentId) {
         this.studentId = aStudentId;
     }
-    private int getNumberOfCredits() {
+    public int getNumberOfCredits() {
         return numberOfCredits;
     }
     public void setNumberOfCredits(int aNumberOfCredits) {
